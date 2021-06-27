@@ -4,7 +4,13 @@ import { Menu, Segment, Dropdown, Icon, Container } from "semantic-ui-react";
 const HomeNav = () => {
   return (
     <>
-      <Menu size="huge" className="border-raius-none" inverted borderless fixed="top">
+      <Menu
+        size="huge"
+        className="border-radius-none"
+        inverted
+        borderless
+        fixed="top"
+        style={{ position: "inherit" }}>
         <Container>
           <Menu.Item as="a" name="home" header />
           <Menu.Item
