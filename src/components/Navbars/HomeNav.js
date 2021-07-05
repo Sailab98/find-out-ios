@@ -6,11 +6,12 @@ const HomeNav = () => {
     <>
       <Menu
         size="huge"
-        className="border-radius-none"
+        className="border-radius-none navbar"
         inverted
         borderless
         fixed="top"
-        style={{ position: "inherit" }}>
+        style={{ position: "inherit" }}
+        navbar>
         <Container>
           <Menu.Item as="a" name="home" header />
           <Menu.Item

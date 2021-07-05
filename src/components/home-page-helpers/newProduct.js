@@ -5,7 +5,7 @@ const NewProductDetails = ({ data }) => {
       {/* <Card.Group as="a" items={data}  borderless></Card.Group> */}
       <Container>
         <Card.Group itemsPerRow={4} centered>
-          <Card className="card">
+          <Card className="carousel-card">
             <Image src={data.image} wrapped ui={false} />
             <Card.Content centered>
               <Card.Header>{data.header}</Card.Header>
